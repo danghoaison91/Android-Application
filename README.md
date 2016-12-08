@@ -1,2 +1,2 @@
 # Android-Application
-My designed android application
+I am evolving to an Android developer
