@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.beginner.MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/happy"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true"
+        android:id="@+id/imageView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday Cruel World"
+        android:padding="20dp"
+        android:textSize="35dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        android:text="From Dang Hoai Son"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="30dp"
+        android:id="@+id/textView" />
+
+
+</RelativeLayout>
