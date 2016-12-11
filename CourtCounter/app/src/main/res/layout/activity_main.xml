@@ -45,7 +45,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="32dp"
                 android:layout_marginRight="32dp"
-                android:onClick="scoreInput"
+                android:onClick="scoreAInput"
                 android:text="+3" />
 
             <Button
@@ -54,7 +54,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="32dp"
                 android:layout_marginRight="32dp"
-                android:onClick="scoreInput"
+                android:onClick="scoreAInput"
                 android:text="+2" />
 
             <Button
@@ -63,7 +63,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="32dp"
                 android:layout_marginRight="32dp"
-                android:onClick="scoreInput"
+                android:onClick="scoreAInput"
                 android:text="Free Throw" />
         </LinearLayout>
 
@@ -84,6 +84,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center_horizontal"
                 android:text="Team B"
+
                 android:textSize="30dp" />
 
 
@@ -102,7 +103,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="32dp"
                 android:layout_marginRight="32dp"
-                android:onClick="scoreInput"
+                android:onClick="scoreBInput"
                 android:text="+3" />
 
             <Button
@@ -111,6 +112,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="32dp"
                 android:layout_marginRight="32dp"
+                android:onClick="scoreBInput"
                 android:text="+2" />
 
             <Button
@@ -119,6 +121,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="32dp"
                 android:layout_marginRight="32dp"
+                android:onClick="scoreBInput"
                 android:text="Free Throw" />
         </LinearLayout>
     </LinearLayout>
@@ -130,6 +133,6 @@
         android:layout_centerHorizontal="true"
         android:text="Reset"
         android:id="@+id/reset_bt"
-        android:onClick="scoreInput"/>
+        android:onClick="reset"/>
 
 </RelativeLayout>

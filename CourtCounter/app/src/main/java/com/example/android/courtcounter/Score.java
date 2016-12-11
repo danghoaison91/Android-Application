@@ -18,10 +18,13 @@ public class Score {
 
     }
 
+
+
     public int getScore(){
 
         return mScore;
     }
+
 
 
     public void getTypeOfShot(String shot){
@@ -40,8 +43,9 @@ public class Score {
 
             mScore = 0;
         }
-
     }
+
+
 
 
 
