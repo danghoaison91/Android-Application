@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Solo Java</string>
+    <string name="chocolate">Cioccolato</string>
+    <string name="lower_coffee_limit">Non puoi ordinare meno di 1 caffè!</string>
+    <string name="name">Nome</string>
+    <string name="order">Ordina</string>
+    <string name="order_summary">Ordine inviato</string>
+    <string name="order_summary_chocolate">Aggiunta cioccolato?</string>
+    <string name="order_summary_email_subject">Solo Java Ordinazione</string>
+    <string name="order_summary_name">Nome:</string>
+    <string name="order_summary_price">Prezzo totale: </string>
+    <string name="order_summary_quantity">Quantità</string>
+    <string name="order_summary_whipped_cream">Aggiunta panna montata?</string>
+    <string name="quantity">Quantità</string>
+    <string name="thank_you">Grazie!</string>
+    <string name="toppings">Guarnizioni</string>
+</resources>

@@ -2,14 +2,21 @@
 package com.example.android.justjava;
 
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.text.NumberFormat;
+
+import static android.R.id.message;
+import static android.icu.lang.UCharacter.GraphemeClusterBreak.T;
 
 /**
  * This app displays an order form to order coffee.
@@ -17,13 +24,15 @@ import java.text.NumberFormat;
 
 public class MainActivity extends AppCompatActivity {
 
-    int numberOfCoffes = 0;
+    int numberOfCoffes = 1;
     int coffePrice = 5;
     int totalPrice = 0;
-    boolean cream = false;
-    final static int HAVE_CREAM = 5;
-    final static int NO_CREAM = 0;
-    int creamPrice = NO_CREAM;
+    String message;
+    final static int HAVE_CREAM = 1;
+    final static int HAVE_CHOCOLATE = 2;
+
+    boolean hasCreamOrNot;
+    boolean hasChocolateOrNot;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,8 +46,24 @@ public class MainActivity extends AppCompatActivity {
      */
     public void submitOrder(View view) {
 
+        CheckBox hasCream = (CheckBox) findViewById(R.id.topping);
+        hasCreamOrNot = hasCream.isChecked();
+
+        CheckBox hasChocolate = (CheckBox) findViewById(R.id.chocolate);
+        hasChocolateOrNot = hasChocolate.isChecked();
+
+        TextView orderSummaryTextView = (TextView) findViewById(R.id.order_summary_text_view);
+
         displayPrice();
 
+        Intent intent = new Intent(Intent.ACTION_SEND);
+
+        intent.setType("text/plain");
+        intent.putExtra(Intent.EXTRA_SUBJECT,getString(R.string.order));
+        intent.putExtra(Intent.EXTRA_TEXT,orderSummaryTextView.getText().toString());
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        }
     }
 
     /**
@@ -54,8 +79,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void decrement(View view) {
 
-        if (numberOfCoffes == 0) {
-            numberOfCoffes = 0;
+        if (numberOfCoffes == 1) {
+
+            Toast.makeText(this, getString(R.string.lower_coffee_limit), Toast.LENGTH_SHORT).show();
+
+            return;
         } else {
 
             numberOfCoffes = numberOfCoffes - 1;
@@ -64,26 +92,24 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    /**
-     * This method is called to check whether or not put in Cream
-     */
-    public boolean creamCheck(View v){
 
-        cream = ((CheckBox)v).isChecked();
-        if (cream){
-            creamPrice = HAVE_CREAM;
-        }else{
-            creamPrice = NO_CREAM;
-        }
-        return cream;
-    }
     /**
      * This method is used to calculate the price of order
      */
 
-    private int calculatePrice(int quantity, int price, int creamPrice) {
+    private int calculatePrice(int quantity, int price, boolean hasCream, boolean hasChocolate) {
 
-        return totalPrice = totalPrice + quantity * (price+creamPrice);
+        int basePrice = price;
+
+        if (hasCream) {
+            basePrice = basePrice + HAVE_CREAM;
+        }
+
+        if (hasChocolate) {
+            basePrice = basePrice + HAVE_CHOCOLATE;
+        }
+
+        return totalPrice = quantity * basePrice;
 
     }
 
@@ -100,22 +126,28 @@ public class MainActivity extends AppCompatActivity {
      */
     private void displayPrice() {
 
+
         TextView orderSummaryTextView = (TextView) findViewById(R.id.order_summary_text_view);
-        orderSummaryTextView.setText(toString());
+        orderSummaryTextView.setText(orderPrint());
     }
 
-    @Override
 
 
-    public String toString() {
+    public String orderPrint() {
+
+        EditText name = (EditText) findViewById(R.id.name_view);
+
 
         String message = "";
-        message = "Name: Dang Hoai Son\n";
-        message = message + "Add Cream: " + cream;
-        message = message + "\nQuantity: " + numberOfCoffes + "\n";
-        message = message + "Total: $" + calculatePrice(numberOfCoffes, coffePrice,creamPrice);
-        Log.e("MainActivity", "Cream Price is " + creamPrice );
-        message = message + "\nThank you!";
+        message = getString(R.string.name) + " " + name.getText().toString();
+        message = message + "\n" + getString(R.string.order_summary_whipped_cream) + " " + hasCreamOrNot;
+        message = message + "\n" + getString(R.string.order_summary_chocolate) + " " + hasChocolateOrNot;
+        message = message + "\n" + getString(R.string.order_summary_quantity) + ": " + numberOfCoffes + "\n";
+        message = message + getString(R.string.order_summary_price) + " " + NumberFormat.getCurrencyInstance().format(calculatePrice(numberOfCoffes, coffePrice, hasCreamOrNot, hasChocolateOrNot));
+        message = message + "\n" + getString(R.string.thank_you);
+
+
         return message;
+
     }
 }
