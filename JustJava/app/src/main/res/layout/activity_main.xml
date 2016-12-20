@@ -24,11 +24,11 @@
             android:id="@+id/name_view" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+
             android:text="@string/toppings"
-            android:textAllCaps="true"
-            android:textSize="16sp" />
+            style="@style/SonStyle"
+
+             />
 
 
         <CheckBox
@@ -51,12 +51,11 @@
 
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/SonStyle"
             android:layout_marginTop="16dp"
             android:text="@string/quantity"
-            android:textAllCaps="true"
-            android:textSize="16sp" />
+
+            />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -92,12 +91,10 @@
 
         <TextView
             android:id="@+id/textview12"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="@string/order_summary"
-            android:textAllCaps="true"
-            android:textSize="16sp" />
+            style="@style/SonStyle"
+             />
 
         <TextView
             android:id="@+id/order_summary_text_view"
