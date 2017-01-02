@@ -17,6 +17,8 @@ package com.example.android.miwok;
 // App làm bài tập tiếng anh cho trẻ em, tính điểm thưởng quà
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
@@ -30,52 +32,13 @@ public class MainActivity extends AppCompatActivity {
         // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_main);
 
-        // Find the numbers view to attach the click event
+        NumbersFragmentAdapter mNumbersFragmentAdapeter = new NumbersFragmentAdapter(getSupportFragmentManager());
 
-        TextView numbers = (TextView) findViewById(R.id.numbers);
+        ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
+        viewPager.setAdapter(mNumbersFragmentAdapeter);
 
-        // Set a click listener on that view numbers
-        numbers.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,NumbersActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        TextView familyMembers = (TextView) findViewById(R.id.family);
-
-        // Set a click listener on that view Family
-        familyMembers.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,FamilyActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        TextView colors = (TextView) findViewById(R.id.colors);
-
-        // Set a click listener on that view colors
-        colors.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,ColorsActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        TextView phrases = (TextView) findViewById(R.id.phrases);
-
-        // Set a click listener on that view Phrase
-       phrases.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,PhrasesActivity.class);
-                startActivity(intent);
-            }
-        });
-
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
+        tabLayout.setupWithViewPager(viewPager);
 
     }
 
