@@ -23,6 +23,9 @@
     <!-- Background color for app -->
     <color name="tan_background">#FFF7DA</color>
 
+    <!-- Background color for tab layout -->
+    <color name="blue_tab">#C5CAE9</color>
+
     <!-- Background color for the numbers category -->
     <color name="category_numbers">#FD8E09</color>
 
