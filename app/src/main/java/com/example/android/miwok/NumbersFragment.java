@@ -5,22 +5,28 @@ import android.content.Context;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 
 /**
- * A simple {@link Fragment} subclass.
+ * A simple {@link FamilyFragment} subclass.
  */
-public class NumbersFragment extends Fragment {
+public class NumbersFragment extends FamilyFragment {
+
+
+
+
+    public NumbersFragment() {
+        // Required empty public constructor
+    }
 
     // GLOBAL VARIABLES
+
 
     private MediaPlayer mWordAudio;
     // Declare an variable of OnCompletionListener object
@@ -73,9 +79,6 @@ public class NumbersFragment extends Fragment {
     // Declare an Audio Manager Object to manage the audio sound focus
     private AudioManager mListenAudioFocus;
 
-    public NumbersFragment() {
-        // Required empty public constructor
-    }
 
     // onStop of fragement lifecycle, allow to release audio output
     @Override
@@ -88,7 +91,11 @@ public class NumbersFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         View rootView = inflater.inflate(R.layout.activity_numbers,container,false);
+
+
+
 
         // FUNCTION: RETRIEVE DATA ARRAY : WORD, TRANSLATED WORD, IMAGE, AUDIO
         // Create an Array List to store Numbers Object
@@ -97,7 +104,8 @@ public class NumbersFragment extends Fragment {
         // Create and setup the {@link Audio Manager} to request audio focus
         mListenAudioFocus = (AudioManager) getActivity().getSystemService(Context.AUDIO_SERVICE);
 
-        Context context;
+
+
         // Add numbers constructor including two String Object and
         // one corresponding Image to the list
         numbers.add(new Numbers("one","một",R.drawable.number_one,R.raw.here));
@@ -158,6 +166,12 @@ public class NumbersFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
 
+
+                // Every time user pass an question, the callback sent to the main activity
+                // Update the process bar
+                String data ="happy";
+                dataPasser.onDataPass(data);
+
                 // Release old audio to play a new one
                 releaseMediaPlayer();
                 // Request Audio Focus for playback
@@ -173,11 +187,13 @@ public class NumbersFragment extends Fragment {
                     mWordAudio.setOnCompletionListener(mOnCompletionListener);
                 }
 
-
             }
         });
 
+
         return rootView;
+
+
 
     }
 

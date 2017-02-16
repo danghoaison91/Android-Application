@@ -57,7 +57,7 @@ public class NumbersAdapter extends ArrayAdapter {
         // Set the background color of the container text view
         linearTextView.setBackgroundColor(color);
 
-        Log.e("PhrasesActivity","Get Image" + numbers.getmImageResource());
+
 
         // Check the exist of Image corresponding to words
         // If it didnot exist, dont display the image view

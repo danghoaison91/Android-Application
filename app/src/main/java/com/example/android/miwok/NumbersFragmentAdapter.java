@@ -27,14 +27,19 @@ public class NumbersFragmentAdapter extends FragmentPagerAdapter {
         switch (position) {
             case 0:
                 currentFragment = new NumbersFragment();
+                return currentFragment;
             case 1:
                 currentFragment = new ColorsFragment();
+                return currentFragment;
             case 2:
-                currentFragment = new NumbersFragment();
+                currentFragment = new FamilyFragment();
+                return currentFragment;
             case 3:
-                currentFragment = new ColorsFragment();
+                currentFragment = new PhrasesFragment();
+                return currentFragment;
         }
         return currentFragment;
+
     }
 
         @Override

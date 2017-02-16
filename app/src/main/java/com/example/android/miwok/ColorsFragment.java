@@ -5,22 +5,26 @@ import android.content.Context;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 
 /**
- * A simple {@link Fragment} subclass.
+ * A simple {@link FamilyFragment} subclass.
  */
-public class ColorsFragment extends Fragment {
+public class ColorsFragment extends FamilyFragment {
 
+
+
+    public ColorsFragment() {
+        // Required empty public constructor
+    }
     // GLOBAL VARIABLES
+
 
     private MediaPlayer mWordAudio;
     // Declare an variable of OnCompletionListener object
@@ -73,9 +77,6 @@ public class ColorsFragment extends Fragment {
     // Declare an Audio Manager Object to manage the audio sound focus
     private AudioManager mListenAudioFocus;
 
-    public ColorsFragment() {
-        // Required empty public constructor
-    }
 
     // onStop of fragement lifecycle, allow to release audio output
     @Override
@@ -88,7 +89,11 @@ public class ColorsFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         View rootView = inflater.inflate(R.layout.activity_numbers,container,false);
+
+
+
 
         // FUNCTION: RETRIEVE DATA ARRAY : WORD, TRANSLATED WORD, IMAGE, AUDIO
         // Create an Array List to store Numbers Object
@@ -97,18 +102,18 @@ public class ColorsFragment extends Fragment {
         // Create and setup the {@link Audio Manager} to request audio focus
         mListenAudioFocus = (AudioManager) getActivity().getSystemService(Context.AUDIO_SERVICE);
 
-        Context context;
+
+
         // Add numbers constructor including two String Object and
         // one corresponding Image to the list
-        numbers.add(new Numbers("one","một",R.drawable.number_one,R.raw.here));
-        numbers.add(new Numbers("two","hai",R.drawable.number_two,R.raw.another));
-        numbers.add(new Numbers("three","ba",R.drawable.number_three));
-        numbers.add(new Numbers("four","bốn",R.drawable.number_four));
-        numbers.add(new Numbers("five","năm",R.drawable.number_five));
-        numbers.add(new Numbers("six","sáu",R.drawable.number_six));
-        numbers.add(new Numbers("seven","bảy",R.drawable.number_seven));
-        numbers.add(new Numbers("eight","tám",R.drawable.number_eight));
-        numbers.add(new Numbers("night","chín",R.drawable.number_nine));
+        numbers.add(new Numbers("red","đỏ",R.drawable.color_red,R.raw.here));
+        numbers.add(new Numbers("black","hai",R.drawable.color_black,R.raw.another));
+        numbers.add(new Numbers("dusty yellow","vàng xám",R.drawable.color_dusty_yellow));
+        numbers.add(new Numbers("brown","nâu",R.drawable.color_brown));
+        numbers.add(new Numbers("green","xanh",R.drawable.color_green));
+        numbers.add(new Numbers("mustard yellow","vàng đậm",R.drawable.color_mustard_yellow));
+        numbers.add(new Numbers("white","trắng",R.drawable.color_white));
+
 
 
 
@@ -158,6 +163,12 @@ public class ColorsFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
 
+
+                // Every time user pass an question, the callback sent to the main activity
+                // Update the process bar
+                String data ="happy";
+                dataPasser.onDataPass(data);
+
                 // Release old audio to play a new one
                 releaseMediaPlayer();
                 // Request Audio Focus for playback
@@ -173,11 +184,13 @@ public class ColorsFragment extends Fragment {
                     mWordAudio.setOnCompletionListener(mOnCompletionListener);
                 }
 
-
             }
         });
 
+
         return rootView;
+
+
 
     }
 

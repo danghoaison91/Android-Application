@@ -15,15 +15,20 @@
  */
 package com.example.android.miwok;
 // App làm bài tập tiếng anh cho trẻ em, tính điểm thưởng quà
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-import android.widget.TextView;
+import android.util.Log;
+import android.widget.ProgressBar;
+import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements FamilyFragment.OnDataPass{
+
+    // Define variable to keep tracking the learning process
+    ProgressBar mProgressBar ;
+    public String yes;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,8 +37,16 @@ public class MainActivity extends AppCompatActivity {
         // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_main);
 
-        NumbersFragmentAdapter mNumbersFragmentAdapeter = new NumbersFragmentAdapter(getSupportFragmentManager());
+        // Testing progress bar function
+        mProgressBar = (ProgressBar) findViewById(R.id.progressBar);
+        mProgressBar.setProgress(0);
+        mProgressBar.setMax(100);
 
+
+
+
+
+        NumbersFragmentAdapter mNumbersFragmentAdapeter = new NumbersFragmentAdapter(getSupportFragmentManager());
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
         viewPager.setAdapter(mNumbersFragmentAdapeter);
 
@@ -43,4 +56,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    // Receive callback from fragment by overide the interface method
+    // Modify progressbar
+
+    @Override
+    public void onDataPass(String data) {
+        yes = data;
+        Toast.makeText(this, "Hello" + yes, Toast.LENGTH_SHORT).show();
+        Log.e("MainActivity","What is " + data);
+        mProgressBar = (ProgressBar) findViewById(R.id.progressBar);
+        mProgressBar.incrementProgressBy(10);
+    }
 }

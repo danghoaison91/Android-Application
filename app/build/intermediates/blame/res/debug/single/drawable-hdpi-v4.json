@@ -1,0 +1,306 @@
+[
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\number_one.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\src\\main\\res\\drawable-hdpi\\number_one.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\color_brown.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\src\\main\\res\\drawable-hdpi\\color_brown.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\color_red.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\src\\main\\res\\drawable-hdpi\\color_red.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\color_white.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\src\\main\\res\\drawable-hdpi\\color_white.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\family_mother.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\src\\main\\res\\drawable-hdpi\\family_mother.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\number_ten.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\src\\main\\res\\drawable-hdpi\\number_ten.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\family_father.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\src\\main\\res\\drawable-hdpi\\family_father.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\color_mustard_yellow.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\src\\main\\res\\drawable-hdpi\\color_mustard_yellow.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\family_grandfather.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\src\\main\\res\\drawable-hdpi\\family_grandfather.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\family_younger_brother.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\src\\main\\res\\drawable-hdpi\\family_younger_brother.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\number_nine.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\src\\main\\res\\drawable-hdpi\\number_nine.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\number_eight.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\src\\main\\res\\drawable-hdpi\\number_eight.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\number_six.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\src\\main\\res\\drawable-hdpi\\number_six.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\number_seven.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\src\\main\\res\\drawable-hdpi\\number_seven.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\family_older_brother.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\src\\main\\res\\drawable-hdpi\\family_older_brother.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\family_older_sister.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\src\\main\\res\\drawable-hdpi\\family_older_sister.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\number_two.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\src\\main\\res\\drawable-hdpi\\number_two.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\family_daughter.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\src\\main\\res\\drawable-hdpi\\family_daughter.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\number_four.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\src\\main\\res\\drawable-hdpi\\number_four.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\number_three.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\src\\main\\res\\drawable-hdpi\\number_three.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\number_five.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\src\\main\\res\\drawable-hdpi\\number_five.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\color_gray.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\src\\main\\res\\drawable-hdpi\\color_gray.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\color_dusty_yellow.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\src\\main\\res\\drawable-hdpi\\color_dusty_yellow.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\family_son.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\src\\main\\res\\drawable-hdpi\\family_son.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\family_grandmother.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\src\\main\\res\\drawable-hdpi\\family_grandmother.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\color_green.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\src\\main\\res\\drawable-hdpi\\color_green.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\family_younger_sister.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\src\\main\\res\\drawable-hdpi\\family_younger_sister.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_play_arrow_white_24dp.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\src\\main\\res\\drawable-hdpi\\ic_play_arrow_white_24dp.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\Course\\ud839_Miwok\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\color_black.png",
+        "source": "E:\\Course\\ud839_Miwok\\app\\src\\main\\res\\drawable-hdpi\\color_black.png"
+    }
+]
